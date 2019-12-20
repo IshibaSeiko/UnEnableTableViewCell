@@ -15,6 +15,7 @@
 		5748F9FE23ACE23C00018C39 /* UnEnableTableViewCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748F9FD23ACE23C00018C39 /* UnEnableTableViewCellDemoUITests.swift */; };
 		5748FA0C23ACE26400018C39 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748FA0B23ACE26400018C39 /* InitialViewController.swift */; };
 		5748FA0E23ACE2EB00018C39 /* InitialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748FA0D23ACE2EB00018C39 /* InitialViewController.storyboard */; };
+		5748FA1023ACE3E400018C39 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748FA0F23ACE3E400018C39 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5748F9FF23ACE23C00018C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5748FA0B23ACE26400018C39 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		5748FA0D23ACE2EB00018C39 /* InitialViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialViewController.storyboard; sourceTree = "<group>"; };
+		5748FA0F23ACE3E400018C39 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5748F9DB23ACE23700018C39 /* AppDelegate.swift */,
 				5748F9DD23ACE23700018C39 /* SceneDelegate.swift */,
 				5748FA0D23ACE2EB00018C39 /* InitialViewController.storyboard */,
+				5748FA0F23ACE3E400018C39 /* CustomTableViewCell.swift */,
 				5748FA0B23ACE26400018C39 /* InitialViewController.swift */,
 				5748F9E423ACE23C00018C39 /* Assets.xcassets */,
 				5748F9E623ACE23C00018C39 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5748F9DC23ACE23700018C39 /* AppDelegate.swift in Sources */,
+				5748FA1023ACE3E400018C39 /* CustomTableViewCell.swift in Sources */,
 				5748F9DE23ACE23700018C39 /* SceneDelegate.swift in Sources */,
 				5748FA0C23ACE26400018C39 /* InitialViewController.swift in Sources */,
 			);

@@ -14,13 +14,38 @@
                     <view key="view" contentMode="scaleToFill" id="tYP-wM-RN2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="APt-FN-rgl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomTableViewCell" rowHeight="146" id="2jD-30-I9j" customClass="CustomTableViewCell" customModule="UnEnableTableViewCellDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2jD-30-I9j" id="O7L-HL-t3u">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="146"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="APt-FN-rgl" firstAttribute="leading" secondItem="tYP-wM-RN2" secondAttribute="leading" id="5t9-UH-XBQ"/>
+                            <constraint firstItem="Twl-cI-Zxh" firstAttribute="bottom" secondItem="APt-FN-rgl" secondAttribute="bottom" id="9Cz-8R-1Zp"/>
+                            <constraint firstItem="Twl-cI-Zxh" firstAttribute="trailing" secondItem="APt-FN-rgl" secondAttribute="trailing" id="ojr-tv-OZ3"/>
+                            <constraint firstItem="APt-FN-rgl" firstAttribute="top" secondItem="Twl-cI-Zxh" secondAttribute="top" id="v9n-o4-dkc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Twl-cI-Zxh"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="APt-FN-rgl" id="zDF-Lb-EeP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4y-hO-odM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="78"/>
+            <point key="canvasLocation" x="-17.39130434782609" y="77.678571428571431"/>
         </scene>
     </scenes>
 </document>
